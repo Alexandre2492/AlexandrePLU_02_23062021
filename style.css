@@ -1,8 +1,55 @@
-h1{
-    color: red;
-    font-size: 5em;
+/*A supprimer*/
+img{
+    width: 10em;
+    height: auto;
+}
+.title{
+    color: #0065FC;
+    }
+.hebergement-populaire--grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3em;
+}
+.hebergement--section--background-colour{
+    background-color: gray;
+}
+.hebergement--grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 3em;
+    row-gap: 3em;
+}
+.hebergement--header{
+    grid-column: 1 / span 3;
+}
+.populaire--grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3em; 
+}
+.footer--background-colour{
+    background-color: grey;
+}
+.footer--grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    column-gap: 3em;
+}
+.footer--section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-p{
-    color: blue;
+/*.footer--section--apropos{
+    grid-column: 2;
 }
+.footer--section--hebergement{
+    grid-column: 4;
+}
+.footer--section--assistance{
+    grid-column: 6;
+}*/
+
