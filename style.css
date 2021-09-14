@@ -1,3 +1,75 @@
+@font-face {
+  font-family: "Raleway-Black";
+  src: url("Raleway/static/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: "Raleway-BlackItalic";
+  src: url("Raleway/static/Raleway-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Raleway-BoldItalic";
+  src: url("Raleway/static/Raleway-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: url("Raleway/static/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Raleway-ExtraBoldItalic";
+  src: url("Raleway/static/Raleway-ExtraBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-ExtraLight";
+  src: url("Raleway/static/Raleway-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Raleway-ExtraLightItalic";
+  src: url("Raleway/static/Raleway-ExtraLightItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url("Raleway/static/Raleway-Italic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Raleway-LightItalic";
+  src: url("Raleway/static/Raleway-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("Raleway/static/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: "Raleway-MediumItalic";
+  src: url("Raleway/static/Raleway-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Raleway-SemiBoldItalic";
+  src: url("Raleway/static/Raleway-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Raleway-Thin";
+  src: url("Raleway/static/Raleway-Thin.ttf");
+}
+@font-face {
+  font-family: "Raleway-ThinItalic";
+  src: url("Raleway/static/Raleway-ThinItalic.ttf");
+}
 /*A supprimer*/
 img {
   width: 10em;
@@ -13,7 +85,7 @@ img {
   flex-direction: column;
   align-items: flex-end;
 }
-.title {
+.star {
   color: #0065fc;
 }
 .hebergement-populaire--grid {
@@ -22,7 +94,7 @@ img {
   column-gap: 3em;
 }
 .hebergement--section--background-colour {
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
 }
 .hebergement--grid {
   display: grid;
@@ -37,14 +109,14 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 3em;
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
 }
 .activite--grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 .footer--background-colour {
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
 }
 .footer--grid {
   display: grid;
