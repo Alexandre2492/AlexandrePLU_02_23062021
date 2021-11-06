@@ -23,13 +23,16 @@ img {
   flex-direction: column;
   align-items: flex-end;
 }
-.nav--color:link {
+.nav--color:link, .nav--color:visited {
   color: #0065fc;
   text-decoration: none;
 }
-.nav--color:visited {
-  color: #0065fc;
+.filtre {
+  color: black;
   text-decoration: none;
+}
+.icon-filtre {
+  color: #0065fc;
 }
 .vignette:link {
   color: black;
