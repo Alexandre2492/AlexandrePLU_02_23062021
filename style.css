@@ -23,9 +23,10 @@ img {
   flex-direction: column;
   align-items: flex-end;
 }
-.nav--color:link, .nav--color:visited {
+.nav-link {
   color: #0065fc;
   text-decoration: none;
+  
 }
 .filtre {
   color: black;
